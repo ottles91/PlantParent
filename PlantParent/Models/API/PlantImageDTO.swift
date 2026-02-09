@@ -5,3 +5,8 @@
 //  Created by Cameron Ottley on 2/9/26.
 //
 
+import Foundation
+
+struct PlantImageDTO: Decodable {
+    let thumbnail: String?
+}
